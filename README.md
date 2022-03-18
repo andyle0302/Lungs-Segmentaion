@@ -85,7 +85,7 @@ As a result the **foreground region** is often missing or only partially detecte
 - Dice Loss
   Originates from [Sørensen–Dice coefficient](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient), which is a statistic developed in 1940s to gauge the similarity between two samples.It was brought to computer vision community by [Milletari](https://arxiv.org/pdf/1606.04797.pdf) et al.in 2016 for 3D medical image segmentation.<br>
   Below shows the equation of Dice coefficient, in which *p* and *q* represent pairs of corresponding pixel values of prediction and ground truth, respectively. Its quantity range between 0 and 1 which we aim to maximize.<br>
-![dice_loss](/unet_explanation/Dice_loss.png) <br>
+![dice_loss](/Dice_loss.png) <br>
   Dice loss considers the loss information **both locally and globally**, which is critical for high accuracy.
   
 If you are interested in segmentation loss functions much in depth, you will find this repository helpful : https://github.com/JunMa11/SegLoss
